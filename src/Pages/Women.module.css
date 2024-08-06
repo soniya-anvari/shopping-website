@@ -1,0 +1,93 @@
+    .tShirts {
+        display: grid;
+        grid-template-columns: 24% 24% 24% 24%;
+        gap: 2vmin;
+        max-width: 1250px;
+        margin: auto;
+        padding: 50px 0;
+    }
+    
+    h2 {
+        font-size: 50px;
+        font-weight: 100;
+        color: rgb(42, 42, 42);
+        max-width: 1250px;
+        margin: auto;
+        margin-top: 60px;
+    }
+    
+    .tShirts div img {
+        width: 90%;
+        height: 300px;
+    }
+    
+    .texts p {
+        color: #676261;
+        font-size: 15px;
+    }
+    
+    .texts h2 {
+        margin-top: 10px;
+        font-size: 5vmin;
+        color: #1e1810;
+        margin-bottom: 14px;
+    }
+    
+    .texts {
+        text-align: center;
+    }
+    
+    .tShirts div p:nth-child(3) {
+        font-size: 13px;
+        color: #676261;
+        margin-top: 10px;
+    }
+    
+    .tShirts div h3 {
+        color: #1e1810;
+        margin-top: 5px;
+        font-size: 17px;
+    }
+    
+    .tShirts div p:nth-child(5) {
+        font-size: 14px;
+        color: #575250;
+        margin-top: 6px;
+    }
+    
+    .basket svg {
+        font-size: 24px;
+        color: #1e1810;
+    }
+    
+    .tShirts div:hover {
+        cursor: pointer;
+    }
+    
+    @media only screen and (max-width: 576px) {
+        .tShirts {
+            grid-template-columns: 80%;
+            justify-content: center;
+        }
+    }
+    
+    @media only screen and (min-width: 576px) {
+        .tShirts {
+            grid-template-columns: 45% 45%;
+            justify-content: center;
+        }
+    }
+    
+    @media only screen and (min-width: 768px) {
+        .tShirts {
+            grid-template-columns: 30% 30% 30%;
+            justify-content: center;
+        }
+    }
+    
+    @media only screen and (min-width: 992px) {
+        .tShirts {
+            grid-template-columns: 23% 23% 23% 23%;
+            justify-content: center;
+        }
+    }

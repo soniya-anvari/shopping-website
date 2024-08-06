@@ -1,0 +1,90 @@
+.navbar {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    box-shadow: 0px 11px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    color: #55585B;
+    margin-left: 4.5vmin;
+    font-size: 2.2vmin;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #b1b1b1;
+}
+
+.navbar ul li:nth-child(1) {
+    margin-left: 0 !important;
+}
+
+.navbar div svg {
+    font-size: 25px;
+    color: #55585B;
+}
+
+.navbar div svg:nth-child(2) {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    left: -6px;
+    top: -10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.container span {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.navbar div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar svg {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar ul li a {
+        margin-left: 2.3vmin;
+        color: black;
+        font-size: 2.5vmin;
+    }
+    .navbar {
+        padding: 20px 0;
+    }
+}

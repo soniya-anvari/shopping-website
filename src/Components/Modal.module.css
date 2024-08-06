@@ -1,0 +1,115 @@
+.header-content {
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.header-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+.modal {
+    position: fixed;
+    overflow-y: scroll;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 999;
+}
+
+.modalContent {
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10vmin 20px;
+    height: 110%;
+    width: 40%;
+    margin-top: 100px;
+}
+
+.remove {
+    cursor: pointer;
+}
+
+.exitIcon {
+    cursor: pointer;
+    font-size: 20px;
+    position: fixed;
+    top: 20px;
+}
+
+.modalTitle {
+    color: #000000;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.modalImage img {
+    width: 4rem;
+}
+
+.modalText {
+    text-align: justify;
+}
+
+.price {
+    margin-top: 10px;
+}
+
+.addToCard button:nth-child(1) {
+    border-right: none;
+}
+
+.addToCard button:nth-child(3) {
+    border-left: none;
+}
+
+.addToCard .btn:nth-child(1):hover,
+.btn:nth-child(3):hover {
+    background-color: rgba(176, 176, 176, 0.309);
+    color: black;
+}
+
+hr {
+    height: 1px;
+    color: rgba(212, 212, 212, 0.817);
+    margin-top: 10px;
+}
+
+.empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkout {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.checkout button {
+    width: 100%;
+    color: white !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .modalContent {
+        width: 80%;
+    }
+}

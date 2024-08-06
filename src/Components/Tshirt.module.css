@@ -1,0 +1,43 @@
+.tshirt {
+    border: 1px solid rgb(219, 219, 219);
+    padding: 5px 20px;
+    border-radius: 6px;
+}
+
+.tshirt img {
+    width: 100%;
+}
+
+.basket {
+    transition: all 0.5s ease;
+    display: flex;
+    margin-top: 5px;
+}
+
+.basket svg {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.basket svg:nth-child(2) {
+    width: 20px;
+    position: relative;
+    top: 3px;
+    height: 20px;
+    left: 10px;
+}
+
+.tshirt p {
+    color: rgb(134, 134, 134);
+    font-size: 13px;
+}
+
+.tshirt h3 {
+    font-size: 15px !important;
+    margin-bottom: 10px;
+}
+
+a {
+    color: black;
+}
